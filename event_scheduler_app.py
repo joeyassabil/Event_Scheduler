@@ -1,8 +1,8 @@
 import unittest
 
-# Global list to store events
+# Global list for storing events
 events = []
-
+# All functions relating  to the event
 # Function to add an event
 def add_event(name, date, time):
     event = {'name': name, 'date': date, 'time': time}
